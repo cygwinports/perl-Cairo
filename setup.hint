@@ -1,0 +1,4 @@
+category: Perl Graphics
+requires: cygwin libcairo2 perl
+sdesc: "Perl bindings to the cairo graphics library"
+ldesc: "Perl bindings to the cairo graphics library"
