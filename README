@@ -3,13 +3,13 @@ perl-Cairo
 Perl bindings to the cairo graphics library.
 
 Runtime requirements:
-  cygwin-1.5.21-1
+  cygwin-1.5.21-2
   libcairo2-1.0.4-1
   perl-5.8.7-5
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.21-1
+  cygwin-1.5.21-2
   binutils-20060709-1
   cygport-0.2.5-1
   gcc-core-3.4.4-1
@@ -27,15 +27,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Cairo-0.91-1-src.tar.bz2
+  unpack perl-Cairo-1.01-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Cairo-0.91-1.cygport all
+  cygport ./perl-Cairo-1.01-1.cygport all
 
 This will create:
-  /usr/src/perl-Cairo-0.91-1-src.tar.bz2
-  /usr/src/perl-Cairo-0.91-1.tar.bz2
+  /usr/src/perl-Cairo-1.01-1-src.tar.bz2
+  /usr/src/perl-Cairo-1.01-1.tar.bz2
 
 -------------------------------------------
 
@@ -52,18 +52,21 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Cairo/Cairo.bs
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Cairo/Cairo.dll
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Cairo/libCairo.dll.a
-  /usr/share/doc/Cygwin/perl-Cairo-0.91.README
-  /usr/share/doc/perl-Cairo-0.91/ChangeLog
-  /usr/share/doc/perl-Cairo-0.91/LICENSE
-  /usr/share/doc/perl-Cairo-0.91/NEWS
-  /usr/share/doc/perl-Cairo-0.91/README
-  /usr/share/doc/perl-Cairo-0.91/TODO
+  /usr/share/doc/Cygwin/perl-Cairo-1.01.README
+  /usr/share/doc/perl-Cairo-1.01/ChangeLog
+  /usr/share/doc/perl-Cairo-1.01/LICENSE
+  /usr/share/doc/perl-Cairo-1.01/NEWS
+  /usr/share/doc/perl-Cairo-1.01/README
+  /usr/share/doc/perl-Cairo-1.01/TODO
   /usr/share/man/man3/Cairo.3pm.gz
   /usr/share/perl/cygwin-pods/Cairo.pod
 
 ------------------
 
 Port Notes:
+
+----- version 1.01-1 -----
+Version bump.
 
 ----- version 0.91-1 -----
 Version bump.
