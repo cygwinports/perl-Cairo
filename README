@@ -4,14 +4,14 @@ Perl bindings to the cairo graphics library.
 
 Runtime requirements:
   cygwin-1.5.21-2
-  libcairo2-1.0.4-1
+  libcairo2-1.2.4-1
   perl-5.8.7-5
 
 Build requirements:
 (besides corresponding -devel packages)
   cygwin-1.5.21-2
   binutils-20060709-1
-  cygport-0.2.5-1
+  cygport-0.2.6-1
   gcc-core-3.4.4-1
   make-3.81-1
   perl-5.8.7-5
@@ -27,15 +27,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Cairo-1.01-1-src.tar.bz2
+  unpack perl-Cairo-1.01-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Cairo-1.01-1.cygport all
+  cygport ./perl-Cairo-1.01-X.cygport all
 
 This will create:
-  /usr/src/perl-Cairo-1.01-1-src.tar.bz2
-  /usr/src/perl-Cairo-1.01-1.tar.bz2
+  /usr/src/perl-Cairo-1.01-X-src.tar.bz2
+  /usr/src/perl-Cairo-1.01-X.tar.bz2
 
 -------------------------------------------
 
@@ -64,6 +64,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.01-2 -----
+Rebuilt for cairo-1.2.
 
 ----- version 1.01-1 -----
 Version bump.
