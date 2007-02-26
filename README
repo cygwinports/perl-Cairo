@@ -3,15 +3,15 @@ perl-Cairo
 Perl bindings to the cairo graphics library.
 
 Runtime requirements:
-  cygwin-1.5.23-2
+  cygwin-1.5.24-2
   libcairo2-1.2.6-1
   perl-5.8.7-5
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.23-2
+  cygwin-1.5.24-2
   binutils-20060817-1
-  cygport-0.2.7-1
+  cygport-0.2.10-1
   gcc-core-3.4.4-3
   make-3.81-1
   perl-5.8.7-5
@@ -22,20 +22,20 @@ Canonical homepage:
   http://gtk2-perl.sourceforge.net/
 
 Canonical download:
-  http://prdownloads.sourceforge.net/gtk2-perl/
+  http://downloads.sourceforge.net/gtk2-perl/
 
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Cairo-1.022-X-src.tar.bz2
+  unpack perl-Cairo-1.023-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Cairo-1.022-X.cygport all
+  cygport ./perl-Cairo-1.023-X.cygport all
 
 This will create:
-  /usr/src/perl-Cairo-1.022-X-src.tar.bz2
-  /usr/src/perl-Cairo-1.022-X.tar.bz2
+  /usr/src/perl-Cairo-1.023-X-src.tar.bz2
+  /usr/src/perl-Cairo-1.023-X.tar.bz2
 
 -------------------------------------------
 
@@ -52,18 +52,20 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Cairo/Cairo.bs
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Cairo/Cairo.dll
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Cairo/libCairo.dll.a
-  /usr/share/doc/Cygwin/perl-Cairo-1.022.README
-  /usr/share/doc/perl-Cairo-1.022/ChangeLog
-  /usr/share/doc/perl-Cairo-1.022/LICENSE
-  /usr/share/doc/perl-Cairo-1.022/NEWS
-  /usr/share/doc/perl-Cairo-1.022/README
-  /usr/share/doc/perl-Cairo-1.022/TODO
+  /usr/share/doc/Cygwin/perl-Cairo-1.023.README
+  /usr/share/doc/perl-Cairo-1.023/ChangeLog
+  /usr/share/doc/perl-Cairo-1.023/LICENSE
+  /usr/share/doc/perl-Cairo-1.023/NEWS
+  /usr/share/doc/perl-Cairo-1.023/README
+  /usr/share/doc/perl-Cairo-1.023/TODO
   /usr/share/man/man3/Cairo.3pm.gz
   /usr/share/perl/cygwin-pods/Cairo.pod
-
 ------------------
 
 Port Notes:
+
+----- version 1.023-1 -----
+Version bump.
 
 ----- version 1.022-1 -----
 Version bump.
