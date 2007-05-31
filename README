@@ -17,6 +17,7 @@ Build requirements:
   perl-5.8.7-5
   perl-ExtUtils-Depends-0.205-1
   perl-ExtUtils-PkgConfig-1.07-1
+  perl-Test-Number-Delta-1.03-1
 
 Canonical homepage:
   http://gtk2-perl.sourceforge.net/
@@ -27,15 +28,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Cairo-1.040-X-src.tar.bz2
+  unpack perl-Cairo-1.041-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Cairo-1.040-X.cygport all
+  cygport ./perl-Cairo-1.041-X.cygport all
 
 This will create:
-  /usr/src/perl-Cairo-1.040-X-src.tar.bz2
-  /usr/src/perl-Cairo-1.040-X.tar.bz2
+  /usr/src/perl-Cairo-1.041-X-src.tar.bz2
+  /usr/src/perl-Cairo-1.041-X.tar.bz2
 
 -------------------------------------------
 
@@ -53,18 +54,21 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Cairo/Cairo.bs
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Cairo/Cairo.dll
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Cairo/libCairo.dll.a
-  /usr/share/doc/Cygwin/perl-Cairo-1.040.README
-  /usr/share/doc/perl-Cairo-1.040/ChangeLog
-  /usr/share/doc/perl-Cairo-1.040/LICENSE
-  /usr/share/doc/perl-Cairo-1.040/NEWS
-  /usr/share/doc/perl-Cairo-1.040/README
-  /usr/share/doc/perl-Cairo-1.040/TODO
+  /usr/share/doc/Cygwin/perl-Cairo-1.041.README
+  /usr/share/doc/perl-Cairo-1.041/ChangeLog
+  /usr/share/doc/perl-Cairo-1.041/LICENSE
+  /usr/share/doc/perl-Cairo-1.041/NEWS
+  /usr/share/doc/perl-Cairo-1.041/README
+  /usr/share/doc/perl-Cairo-1.041/TODO
   /usr/share/man/man3/Cairo.3pm.gz
   /usr/share/perl/cygwin-pods/5.8/Cairo.pod
 
 ------------------
 
 Port Notes:
+
+----- version 1.041-1 -----
+Version bump.
 
 ----- version 1.040-1 -----
 Version bump for cairo-1.4.
