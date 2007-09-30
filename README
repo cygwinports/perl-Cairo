@@ -4,14 +4,14 @@ Perl bindings to the cairo graphics library.
 
 Runtime requirements:
   cygwin-1.5.24-2
-  libcairo2-1.4.6-1
-  perl-5.8.7-5
+  libcairo2-1.4.10-1
+  perl-5.8.8-4
 
 Build requirements:
 (besides corresponding -devel packages)
   cygwin-1.5.24-2
   binutils-20060817-1
-  cygport-0.2.11-1
+  cygport-0.3.5-1
   gcc-core-3.4.4-3
   make-3.81-1
   perl-5.8.7-5
@@ -28,15 +28,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Cairo-1.041-X-src.tar.bz2
+  unpack perl-Cairo-1.042-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Cairo-1.041-X.cygport all
+  cygport ./perl-Cairo-1.042-X.cygport all
 
 This will create:
-  /usr/src/perl-Cairo-1.041-X-src.tar.bz2
-  /usr/src/perl-Cairo-1.041-X.tar.bz2
+  /usr/src/perl-Cairo-1.042-X-src.tar.bz2
+  /usr/src/perl-Cairo-1.042-X.tar.bz2
 
 -------------------------------------------
 
@@ -54,18 +54,21 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Cairo/Cairo.bs
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Cairo/Cairo.dll
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Cairo/libCairo.dll.a
-  /usr/share/doc/Cygwin/perl-Cairo-1.041.README
-  /usr/share/doc/perl-Cairo-1.041/ChangeLog
-  /usr/share/doc/perl-Cairo-1.041/LICENSE
-  /usr/share/doc/perl-Cairo-1.041/NEWS
-  /usr/share/doc/perl-Cairo-1.041/README
-  /usr/share/doc/perl-Cairo-1.041/TODO
+  /usr/share/doc/Cygwin/perl-Cairo-1.042.README
+  /usr/share/doc/perl-Cairo-1.042/ChangeLog
+  /usr/share/doc/perl-Cairo-1.042/LICENSE
+  /usr/share/doc/perl-Cairo-1.042/NEWS
+  /usr/share/doc/perl-Cairo-1.042/README
+  /usr/share/doc/perl-Cairo-1.042/TODO
   /usr/share/man/man3/Cairo.3pm.gz
   /usr/share/perl/cygwin-pods/5.8/Cairo.pod
 
 ------------------
 
 Port Notes:
+
+----- version 1.042-1 -----
+Version bump.
 
 ----- version 1.041-1 -----
 Version bump.
