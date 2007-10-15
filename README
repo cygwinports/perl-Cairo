@@ -28,15 +28,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Cairo-1.042-X-src.tar.bz2
+  unpack perl-Cairo-1.043-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Cairo-1.042-X.cygport all
+  cygport ./perl-Cairo-1.043-X.cygport all
 
 This will create:
-  /usr/src/perl-Cairo-1.042-X-src.tar.bz2
-  /usr/src/perl-Cairo-1.042-X.tar.bz2
+  /usr/src/perl-Cairo-1.043-X-src.tar.bz2
+  /usr/src/perl-Cairo-1.043-X.tar.bz2
 
 -------------------------------------------
 
@@ -54,18 +54,21 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Cairo/Cairo.bs
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Cairo/Cairo.dll
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Cairo/libCairo.dll.a
-  /usr/share/doc/Cygwin/perl-Cairo-1.042.README
-  /usr/share/doc/perl-Cairo-1.042/ChangeLog
-  /usr/share/doc/perl-Cairo-1.042/LICENSE
-  /usr/share/doc/perl-Cairo-1.042/NEWS
-  /usr/share/doc/perl-Cairo-1.042/README
-  /usr/share/doc/perl-Cairo-1.042/TODO
+  /usr/share/doc/Cygwin/perl-Cairo-1.043.README
+  /usr/share/doc/perl-Cairo-1.043/ChangeLog
+  /usr/share/doc/perl-Cairo-1.043/LICENSE
+  /usr/share/doc/perl-Cairo-1.043/NEWS
+  /usr/share/doc/perl-Cairo-1.043/README
+  /usr/share/doc/perl-Cairo-1.043/TODO
   /usr/share/man/man3/Cairo.3pm.gz
   /usr/share/perl/cygwin-pods/5.8/Cairo.pod
 
 ------------------
 
 Port Notes:
+
+----- version 1.043-1 -----
+Version bump.
 
 ----- version 1.042-1 -----
 Version bump.
