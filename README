@@ -3,18 +3,18 @@ perl-Cairo
 Perl bindings to the cairo graphics library.
 
 Runtime requirements:
-  cygwin-1.5.25-7
-  libcairo2-1.4.14-1
+  cygwin-1.5.25-11
+  libcairo2-1.6.4-1
   perl-5.10.0-3
 
 Build requirements:
 (besides corresponding -devel packages)
   binutils-20060817-1
-  cygport-0.3.9-1
+  cygport-0.3.11-1
   gcc-core-3.4.4-3
   make-3.81-1
-  perl-ExtUtils-Depends-0.205-2
-  perl-ExtUtils-PkgConfig-1.10-1
+  perl-ExtUtils-Depends-0.300-1
+  perl-ExtUtils-PkgConfig-1.11-1
   perl-Test-Number-Delta-1.03-2
 
 Canonical homepage:
@@ -26,15 +26,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Cairo-1.045-X-src.tar.bz2
+  unpack perl-Cairo-1.060-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Cairo-1.045-X.cygport all
+  cygport ./perl-Cairo-1.060-X.cygport all
 
 This will create:
-  /usr/src/perl-Cairo-1.045-X-src.tar.bz2
-  /usr/src/perl-Cairo-1.045-X.tar.bz2
+  /usr/src/perl-Cairo-1.060-X-src.tar.bz2
+  /usr/src/perl-Cairo-1.060-X.tar.bz2
 
 -------------------------------------------
 
@@ -48,19 +48,20 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Cairo/Install/cairo-perl.typemap
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Cairo/Install/doctypes
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Cairo/.packlist
-  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Cairo/Cairo.bs
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Cairo/Cairo.dll
-  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Cairo/libCairo.dll.a
-  /usr/share/doc/perl-Cairo-1.045/ChangeLog
-  /usr/share/doc/perl-Cairo-1.045/LICENSE
-  /usr/share/doc/perl-Cairo-1.045/NEWS
-  /usr/share/doc/perl-Cairo-1.045/README
-  /usr/share/doc/perl-Cairo-1.045/TODO
+  /usr/share/doc/perl-Cairo-1.060/ChangeLog
+  /usr/share/doc/perl-Cairo-1.060/LICENSE
+  /usr/share/doc/perl-Cairo-1.060/NEWS
+  /usr/share/doc/perl-Cairo-1.060/README
+  /usr/share/doc/perl-Cairo-1.060/TODO
   /usr/share/man/man3/Cairo.3pm.gz
 
 ------------------
 
 Port Notes:
+
+----- version 1.060-1 -----
+Version bump for cairo-1.6.
 
 ----- version 1.045-1 -----
 Version bump, built for perl-5.10.
