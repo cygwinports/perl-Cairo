@@ -3,18 +3,18 @@ perl-Cairo
 Perl bindings to the cairo graphics library.
 
 Runtime requirements:
-  cygwin-1.5.25-11
-  libcairo2-1.6.4-1
-  perl-5.10.0-3
+  cygwin-1.7.0-43
+  libcairo2-1.8.6-10
+  perl-5.10.0-5
 
 Build requirements:
 (besides corresponding -devel packages)
-  binutils-20060817-1
-  cygport-0.3.11-1
-  gcc-core-3.4.4-3
-  make-3.81-1
-  perl-ExtUtils-Depends-0.300-1
-  perl-ExtUtils-PkgConfig-1.11-1
+  binutils-20080624-2
+  cygport-0.9.6-1
+  gcc-core-3.4.4-999
+  make-3.81-2
+  perl-ExtUtils-Depends-0.301-1
+  perl-ExtUtils-PkgConfig-1.12-1
   perl-Test-Number-Delta-1.03-2
 
 Canonical homepage:
@@ -49,64 +49,19 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Cairo/Install/doctypes
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Cairo/.packlist
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Cairo/Cairo.dll
-  /usr/share/doc/perl-Cairo-1.060/ChangeLog
-  /usr/share/doc/perl-Cairo-1.060/LICENSE
-  /usr/share/doc/perl-Cairo-1.060/NEWS
-  /usr/share/doc/perl-Cairo-1.060/README
-  /usr/share/doc/perl-Cairo-1.060/TODO
+  /usr/share/doc/perl-Cairo/ChangeLog
+  /usr/share/doc/perl-Cairo/LICENSE
+  /usr/share/doc/perl-Cairo/NEWS
+  /usr/share/doc/perl-Cairo/README
+  /usr/share/doc/perl-Cairo/TODO
   /usr/share/man/man3/Cairo.3pm.gz
 
 ------------------
 
 Port Notes:
 
------ version 1.060-1 -----
-Version bump for cairo-1.6.
-
------ version 1.045-1 -----
-Version bump, built for perl-5.10.
-
------ version 1.044-1 -----
-Version bump.
-
------ version 1.043-1 -----
-Version bump.
-
------ version 1.042-1 -----
-Version bump.
-
------ version 1.041-1 -----
-Version bump.
-
------ version 1.040-1 -----
-Version bump for cairo-1.4.
-
------ version 1.023-1 -----
-Version bump.
-
------ version 1.022-1 -----
-Version bump.
-
------ version 1.02-1 -----
-Version bump.
-
------ version 1.01-2 -----
-Rebuilt for cairo-1.2.
-
------ version 1.01-1 -----
-Version bump.
-
------ version 0.91-1 -----
-Version bump.
-
------ version 0.03-1 -----
-Version bump.
-
------ version 0.02-1 -----
-Version bump.
-
------ version 0.01-1 -----
-Initial release for Cygwin.
+----- version 1.060-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
