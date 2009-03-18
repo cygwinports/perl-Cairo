@@ -5,13 +5,14 @@ Perl bindings to the cairo graphics library.
 Runtime requirements:
   cygwin-1.7.0-43
   libcairo2-1.8.6-10
+  libgcc1-4.3.2-2
   perl-5.10.0-5
 
 Build requirements:
 (besides corresponding -devel packages)
   binutils-20080624-2
   cygport-0.9.6-1
-  gcc-core-3.4.4-999
+  gcc4-core-4.3.2-2
   make-3.81-2
   perl-ExtUtils-Depends-0.301-1
   perl-ExtUtils-PkgConfig-1.12-1
