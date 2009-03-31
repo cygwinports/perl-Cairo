@@ -1,4 +1,4 @@
-category: Perl Graphics
+category: Perl X11
 requires: cygwin libcairo2 libgcc1 perl
 sdesc: "Perl bindings to the cairo graphics library"
 ldesc: "Perl bindings to the cairo graphics library"
