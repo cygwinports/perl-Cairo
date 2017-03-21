@@ -1,7 +1,7 @@
 inherit gtk2-perl
 
 NAME="perl-Cairo"
-VERSION=1.105
+VERSION=1.106
 RELEASE=1
 CATEGORY="Perl"
 SUMMARY="Perl libcairo bindings"
