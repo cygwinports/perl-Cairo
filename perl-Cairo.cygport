@@ -2,7 +2,7 @@ inherit gtk2-perl
 
 NAME="perl-Cairo"
 VERSION=1.106
-RELEASE=1
+RELEASE=2
 CATEGORY="Perl"
 SUMMARY="Perl libcairo bindings"
 DESCRIPTION="Cairo provides Perl bindings for the vector graphics library cairo.
